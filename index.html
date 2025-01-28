@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main div{
+            text-align: center;
+            align-content: center;
+            border: 2px solid black;
+        }
+        .main{
+            display:grid;
+            grid-template-columns: 2cm 2cm 2cm 2cm 2cm 2cm 2cm;
+            grid-template-rows: 1.5cm 1.5cm 1.5cm 5cm 1.5cm;
+            gap:10px;
+        }
+        .d1{
+            background-color:green;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        .d2{
+            grid-column: 2/6;
+        }
+        .d3{
+            grid-column: 2/5;
+        }
+        .d4{
+            grid-column: 2/3;
+        }
+        .d5{
+            grid-column: 3/4;
+        }
+        .d6{
+            grid-column: 4/5;
+        }
+        .d7{
+            grid-column: 5/6;
+        }
+        .d8{
+            grid-column: 6/7;
+        }
+        .d9{
+            grid-row: 4/5;
+            background-color: blueviolet;
+        }
+        .d10{
+            grid-column: 2/8;
+        }
+        .d11{
+            grid-column: 2/8;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class ="d1">Logo</div>
+        <div class ="d2">21</div>
+        <div class ="d3">3</div>
+        <div class ="d4">4</div>
+        <div class ="d5">5</div>
+        <div class ="d6">6</div>
+        <div class ="d7">7</div>
+        <div class ="d8">8</div>
+        <div class ="d9">Navigation</div>
+        <div class ="d10">Content</div>
+        <div class ="d11">Footer</div>
+    </div>
+
+</body>
+</html>
